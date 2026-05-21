@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ruby
+*.gem
+*.rbc
+.ruby-version
+.ruby-gemset
+Gemfile.lock
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+# Test
+.coverage
+.rspec
+test/fixtures/*
+!test/fixtures/.gitkeep
+
+# Bundler
+vendor/bundle/
+.bundle/
+
+# Environment
+.env
+.env.local
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
