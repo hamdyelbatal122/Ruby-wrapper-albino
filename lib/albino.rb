@@ -44,14 +44,15 @@ require 'posix-spawn'
 #
 # To see all lexers and formatters available, run `pygmentize -L`.
 #
-# Chris Wanstrath // chris@ozmm.org
-#         GitHub // http://github.com
+# Originally created by Chris Wanstrath
+# Maintained and enhanced by Hamdy Elbatal
+# https://github.com/hamdyelbatal122/Ruby-wrapper-albino
 #
 class Albino
   class ShellArgumentError < ArgumentError; end
   include POSIX::Spawn
 
-  VERSION = '1.3.3'
+  VERSION = '1.3.4'
 
   class << self
     attr_accessor :bin, :timeout_threshold

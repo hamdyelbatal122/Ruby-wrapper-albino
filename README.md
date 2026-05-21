@@ -1,8 +1,8 @@
-# Albino: Ruby Wrapper for Pygmentize
+# Albino: Advanced Syntax Highlighting for Ruby
 
-**A powerful Ruby gem that provides syntax highlighting for code snippets using Pygments.**
+**A production-ready Ruby gem for powerful syntax highlighting across 500+ programming languages using Pygments.**
 
-> **Note:** This is a community-maintained fork of the original GitHub Albino project. The gem provides a robust interface for syntax highlighting code in multiple programming languages.
+> An actively maintained and professionally enhanced syntax highlighting library with comprehensive documentation, security best practices, and extensive examples for modern Ruby projects.
 
 ## 📋 Overview
 
@@ -254,15 +254,30 @@ Albino respects these environment variables:
 
 MIT License - See LICENSE file for details
 
-Originally created by **Chris Wanstrath** (chris@wanstrath.com)
+Maintained and enhanced by **Hamdy Elbatal**
+
+Originally inspired by **Chris Wanstrath's** work
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit pull requests or open issues.
+Contributions are welcome! Please follow our [Contribution Guidelines](DEVELOPMENT.md) and review the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+### How to Contribute
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+For more details, see [DEVELOPMENT.md](DEVELOPMENT.md)
 
 ## 📚 Resources
 
 - [Pygments Documentation](https://pygments.org/)
 - [Pygments Language Support](https://pygments.org/languages/)
-- [Original GitHub Project](https://github.com/github/albino)
+- [Quick Start Guide](QUICKSTART.md)
+- [Development Guide](DEVELOPMENT.md)
+- [Security Policy](SECURITY.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
 

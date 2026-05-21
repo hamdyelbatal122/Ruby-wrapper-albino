@@ -13,21 +13,21 @@ Gem::Specification.new do |s|
   ## If your rubyforge_project name is different, then edit it and comment out
   ## the sub! line in the Rakefile
   s.name              = 'albino'
-  s.version           = '1.3.3'
-  s.date              = '2011-04-19'
+  s.version           = '1.3.4'
+  s.date              = '2026-05-21'
   s.rubyforge_project = 'albino'
 
   ## Make sure your summary is short. The description may be as long
   ## as you like.
-  s.summary     = "Ruby wrapper for pygmentize."
-  s.description = "Ruby wrapper for pygmentize."
+  s.summary     = "Advanced syntax highlighting for Ruby using Pygments."
+  s.description = "A production-ready Ruby gem providing comprehensive syntax highlighting for 500+ programming languages. Supports HTML, LaTeX, BBCode, IRC and more output formats. Ideal for blogs, documentation systems, and code review tools."
 
   ## List the primary authors. If there are a bunch of authors, it's probably
   ## better to set the email to an email list or something. If you don't have
   ## a custom homepage, consider using your GitHub URL or the like.
-  s.authors  = ["Chris Wanstrath"]
-  s.email    = 'chris@wanstrath.com'
-  s.homepage = 'http://github.com/github/albino'
+  s.authors  = ["Hamdy Elbatal", "Chris Wanstrath"]
+  s.email    = 'elbatalhamdy77@gmail.com'
+  s.homepage = 'https://github.com/hamdyelbatal122/Ruby-wrapper-albino'
 
   ## This gets added to the $LOAD_PATH so that 'lib/NAME.rb' can be required as
   ## require 'NAME.rb' or'/lib/NAME/file.rb' can be as require 'NAME/file.rb'
